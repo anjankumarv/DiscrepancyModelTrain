@@ -7,6 +7,6 @@
 #Virtual environment
 /venv
 #Resources
-/resources
+#/resources
 *.pkl
 .vscode
