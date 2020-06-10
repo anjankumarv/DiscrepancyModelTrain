@@ -1,0 +1,7 @@
+md5: b32c788774d101f5d736022a5f906112
+outs:
+- md5: 95544250dbd3c0e2e7bf9e11fc682027
+  path: ata_classif_linearsvc.pkl
+  cache: true
+  metric: false
+  persist: false
