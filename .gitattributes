@@ -1,0 +1,9 @@
+resources/model/ata_classif_linearsvc.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/ata_vectorizer.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/subata_classif_linearsvc.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/subata_vectorizer.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/2019/subata_classif_logis.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/2019/subata_vectorizer.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/2019/vectorizer.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/2019/ata_classif_linearsvc.pkl filter=lfs diff=lfs merge=lfs -text
+resources/model/2019/subata_classif_linearsvc.pkl filter=lfs diff=lfs merge=lfs -text
