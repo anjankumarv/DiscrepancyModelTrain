@@ -1,0 +1,4 @@
+[core]
+    remote = model_files
+['remote "model_files"']
+    url = E:/Projects/model_output

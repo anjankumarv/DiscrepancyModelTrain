@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
 
-discs = pd.read_csv('../all_sqk_desc_model_all.LST', header = None, sep = '|', encoding = "ISO-8859-1", names = ['SUBATA', 'SQUAWK_DESCRIPTION', 'MODEL_ID', 'ATA_LOOKUP', 'SUBATA_LOOKUP'])
+discs = pd.read_csv('all_sqk_desc_model_all.LST', header = None, sep = '|', encoding = "ISO-8859-1", names = ['SUBATA', 'SQUAWK_DESCRIPTION', 'MODEL_ID', 'ATA_LOOKUP', 'SUBATA_LOOKUP'])
 print(len(discs))
 #discs_more_50 = discs[discs.groupby('ATA_LOOKUP')['MODEL_ID'].transform('count') >50]
 #train_discs = discs_more_50
