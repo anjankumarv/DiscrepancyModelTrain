@@ -29,7 +29,7 @@ six==1.11.0
 swagger-ui-py==22.7.13
 typing_extensions==4.1.1
 urllib3==1.25.2
-waitress==2.0.0
+waitress==2.1.2
 Werkzeug==2.0.3
 xlrd==1.2.0
 XlsxWriter==3.0.3
