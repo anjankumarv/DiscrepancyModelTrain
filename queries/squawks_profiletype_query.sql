@@ -8,12 +8,11 @@ SET TERMOUT OFF;
 set feedback off;
 spool squawks_all.LST;
  
-SELECT 'SQUAWK_ID|PROFILE_ID|MODEL_ID|ATA|SUB_ATA|ATA_SUBATA|SQK_DESC' info FROM DUAL
+SELECT 'MODEL_ID|PROFILETYPE_LOOKUP|ATA|SUB_ATA|ATA_SUBATA|SQK_DESC' info FROM DUAL
 UNION ALL
 select distinct 
-s.squawk_id || '|' ||
-s.profile_id || '|' ||
 m.model_id || '|' ||
+trim(m.PROFILETYPE_LOOKUP) || '|' ||
 trim(s.ATA_LOOKUP) || '|' ||
 trim(s.supplement_ata_lookup) || '|' ||
 (case when REGEXP_LIKE(trim(s.supplement_ata_lookup), '^[[:digit:]]+$') and REGEXP_LIKE(trim(s.ATA_LOOKUP), '^[[:digit:]]+$') then 
